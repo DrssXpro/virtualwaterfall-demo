@@ -125,7 +125,7 @@ const addInQueue = (size = props.enterSize) => {
     const dataItem = dataState.list[queueState.len];
     const item = generatorItem(dataItem, before, minIndex);
     currentColumn.list.push(item);
-    currentColumn.height += item.h;
+    currentColumn.height = item.y;
     queueState.len++;
   }
 };
