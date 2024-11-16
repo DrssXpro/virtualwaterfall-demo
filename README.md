@@ -4,12 +4,8 @@
 
 仅提供实现思路学习使用，该组件为 demo 级别，切勿用在真实业务场景中
 
-## 定高图片瀑布流虚拟列表展示效果
+文章教程：[瀑布流优化：历经一周的时间，我终于把小红书的瀑布流虚拟列表撕出来了!](https://juejin.cn/post/7327971289743278121)
 
-<img src="src/assets/滚动动画效果2.gif" alt="瀑布流虚拟列表组件" style="width: 600px;" width="600px" />
+## 效果
 
-
-## 携带文本瀑布流虚拟列表展示效果
-
-<img src="src/assets/不定高的瀑布流虚拟列表.gif" alt="瀑布流虚拟列表组件" style="width: 600px;" width="600px" />
-
+<img src="src/assets/waterfall.png" alt="瀑布流虚拟列表组件" style="width: 600px;" width="600px" />

@@ -97,8 +97,6 @@ const addInQueue = (size = props.pageSize) => {
     const dataItem = dataState.list[queueState.len];
     const item = generatorItem(dataItem, before, minIndex);
     currentColumn.list.push(item);
-    // currentColumn.height += item.h;
-    console.log("hceck:", item);
     currentColumn.height = item.y;
     queueState.len++;
   }
